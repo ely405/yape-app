@@ -1,0 +1,93 @@
+.flex-column{
+  flex-direction: column;
+}
+.space-around{
+  justify-content: space-around;
+}
+.space-between{
+  justify-content: space-between;
+}
+.flex-center{
+  justify-content: center;
+}
+.d-flex{
+  display: flex;
+}
+.m-auto{
+  margin: auto;
+}
+
+.m-b-0{
+  margin-bottom: 0;
+}
+.p-1{
+  padding: 1rem;
+}
+.m-inherit{
+  margin: inherit;
+}
+.h-95vh{
+  min-height: 95vh;
+}
+.h-100vh{
+  height: 100vh;
+}
+.bg-icon{
+  background-size: 13%;
+}
+.bg-contain{
+  background-size: contain;
+}
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+//register number
+#register-container input, #message-container input, #create-user-container input{
+  padding-left: 5rem;
+
+}
+.h-60pr{
+  height: 60%;
+}
+
+//resend code
+#message-container{
+  background-image: url('../img/icons/message.png');
+  background-position: 50% 15%;
+  background-size: 40%;
+}
+#inp-code{
+  background-image: url('../img/icons/lock.png');
+}
+#clock-icon{
+  background-image: url('../img/icons/clock.png');
+  padding: 0.3rem 1rem;
+}
+
+//create user
+#user-name{
+  background-image: url('../img/icons/user.png');
+}
+#user-email{
+  background-image: url('../img/icons/message-gray.png');
+}
+#user-pass, #inp-pass-card{
+  background-image: url('../img/icons/lock.png');
+}
+
+//Registra tu tarjeta
+#inp-card{
+  background-image: url('../img/icons/card.png');
+}
+#scan{
+  background-image: url('../img/icons/scan.png');
+  padding: 0.3rem 1rem;
+}
+//hello
+#eye{
+  background-image: url('../img/icons/eye.png');
+  padding: 0.3rem 1rem;
+}
+#right-arrow{
+  background-image: url('../img/icons/right-arrow-circular-button.png');
+}
